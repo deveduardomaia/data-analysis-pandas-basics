@@ -1,1 +1,12 @@
-Data Analysis with Pandas... Repositório dedicado aos meus estudos práticos de análise e manipulação de dados utilizando Python e Pandas. Objetivo... Desenvolver e consolidar habilidades fundamentais em análise de dados com Python... aplicando conceitos por meio de exercícios práticos e evoluindo progressivamente para análises mais completas. Tecnologias... Python, Pandas, Git & GitHub, Visual Studio Code. Conteúdos praticados... criação e manipulação de data frames, seleção e organização de dados, criação de novas colunas, operações e cálculos com dados... visualização inicial de datasets, utilização de métodos do Pandas como head. Em desenvolvimento... este repositório será atualizado continuamente conforme o avanço nos meus estudos e novos projetos forem adicionados.
+Data Analysis with Pandas.
+
+Repositório dedicado aos meus estudos práticos de análise e manipulação de dados utilizando Python e Pandas. 
+
+Objetivo:
+Desenvolver e consolidar habilidades fundamentais em análise de dados com Python... aplicando conceitos por meio de exercícios práticos e evoluindo progressivamente para análises mais completas. 
+
+Tecnologias: Python, Pandas, Git & GitHub, Visual Studio Code. 
+
+Conteúdos praticados: Criação e manipulação de data frames, seleção e organização de dados, criação de novas colunas, operações e cálculos com dados, visualização inicial de datasets, utilização de métodos do Pandas como head. 
+
+Em desenvolvimento, este repositório será atualizado continuamente conforme o avanço nos meus estudos e novos projetos forem adicionados.
