@@ -10,4 +10,8 @@ df = pd.DataFrame(dados)
 
 df["valor_venda"] = df["preco"] * df["quantidade"]
 
-print(df[df["valor_venda"] > 2000])
+print(df["valor_venda"].to_string(index=False))
+
+total_venda = df["valor_venda"].sum()
+
+print(f"Total: R$ {total_venda}")
