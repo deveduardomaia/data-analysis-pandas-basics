@@ -10,6 +10,6 @@ df = pd.DataFrame(dados)
 
 df["valor_venda"] = df["preco"] * df["quantidade"]
 
-index_max = df["valor_venda"].idxmax() 
+print(df[df["preco"]>1000]["valor_venda"].sum())
 
-print(df["produto"][index_max])
+
