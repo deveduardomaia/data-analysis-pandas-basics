@@ -10,4 +10,4 @@ df = pd.DataFrame(dados)
 
 df["valor_venda"] = df["preco"] * df["quantidade"]
 
-print(df[df["preco"]>1000]["valor_venda"].sum())
+print(df.sort_values("valor_venda",ascending=False).head(3)["produto"].to_string(index=False))
