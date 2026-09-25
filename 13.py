@@ -9,6 +9,3 @@ dados = {
 df = pd.DataFrame(dados)
 
 print(df["preco"][df["preco"]>1000] .count())
-
-
-#print(df[df["preco"]>100]["preco"].count())
