@@ -7,5 +7,8 @@ dados = {
 
 df = pd.DataFrame(dados)
 
-maior = df.loc[df["vendas"]>1000, ["vendedor", "vendas"]]
+grupo = df.groupby("vendedor")["vendas"].sum()
 
+maior_venda = grupo.sort_values(ascending=False)
+
+print(maior_venda.head(2).to_string())
