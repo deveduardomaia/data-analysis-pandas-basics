@@ -12,4 +12,5 @@ df["total_vendas"] = df.groupby("vendedor")["vendas"].transform("sum")
 df.loc[df["total_vendas"]>=3000, "desempenho"]="Bom"
 df.loc[df["total_vendas"]<3000, "desempenho"]="Regular"
 
+df["participacao"] = ((df["vendas"] / df["total_vendas"]) * 100).round(2)
 print(df)
