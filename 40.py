@@ -14,4 +14,10 @@ df.loc[df["total_vendas"]<3000, "desempenho"]="Regular"
 
 df["participacao"] = ((df["vendas"] / df["total_vendas"]) * 100).round(2)
 
+df.loc[df["participacao"]<40, "status"] = "Baixa"
+df.loc[df["participacao"]>=40, "status"] = "Media"
+df.loc[df["participacao"]>=60, "status"] = "Alta"
+
+
+
 print(df)
