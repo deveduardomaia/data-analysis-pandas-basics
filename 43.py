@@ -8,8 +8,6 @@ dados = {
 
 df = pd.DataFrame(dados)
 
-df["valor_venda"] = df["preco"] * df["quantidade"]
+preco_maior = df[df["preco"]>1000]["preco"].count()
 
-vendas_total = df.loc[df["preco"] > 1000, "valor_venda"].sum()
-
-print(vendas_total)
+print(preco_maior)
