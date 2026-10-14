@@ -10,6 +10,6 @@ df = pd.DataFrame(dados)
 
 df["valor_venda"] = df["preco"] * df["quantidade"]
 
-resultado = df.sort_values("valor_venda", ascending=True).head(3)[["produto", "valor_venda"]]
+resultado = df.sort_values("valor_venda", ascending=True).head(2)[["produto", "valor_venda"]]
 
 print(resultado)

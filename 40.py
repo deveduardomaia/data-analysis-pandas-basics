@@ -18,6 +18,4 @@ df.loc[df["participacao"]<40, "status"] = "Baixa"
 df.loc[df["participacao"]>=40, "status"] = "Media"
 df.loc[df["participacao"]>=60, "status"] = "Alta"
 
-
-
 print(df)
